@@ -1,0 +1,60 @@
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: black ;
+  padding: 10px 15px;
+  border-radius: 15px;
+transition: color 1s ease; 
+}
+a:hover{
+ color:red; 
+  background-color: white ; 
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 33%; /* Ширина изображения */
+  padding: 5px; /* Внутренний отступ между изображениями */
+  box-sizing: border-box; /* Включает padding в ширину изображения */
+}
+table{
+  border-collapse: collapse; 
+  border:10px solid;
+width:350px;
+  heigh:350px;
+}
+th,td{
+  border:9px solid;
+}
+body{
+  background-color:gray;
+}
+.a011923{
+  background-color:white;
+  padding:35px;
+   border-radius: 15px;
+}
+h1{
+transition: font-size 1s ease;
+}
+h1:hover{
+font-size: 80px;
+}
